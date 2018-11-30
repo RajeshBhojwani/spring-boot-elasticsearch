@@ -25,14 +25,14 @@ UserRepositoryController has api using ElasticsearchRepository
 http://localhost:8102/new
 
 ### JSON data
-{
+```{
   "name": "Sumit",
    "userSettings": {
    	"gender" : "male",
    	"occupation" : "CA",
    	"hobby" : "chess"
    }
-}
+}```
 
 2. GET call for Retrieve all Users
 http://localhost:8102/all
@@ -47,14 +47,14 @@ http://localhost:8102/settings/Deepika/hobby/poetry
 1. POST call for creating new User-
 http://localhost:8102/repo/new
 ### JSON Data
-{
+```{
   "name": "Deepika",
    "userSettings": {
    	"gender" : "Female",
    	"occupation" : "Software Engineer",
    	"hobby" : "racing"
    }
-}
+}```
 
 2. GET call for Retrieve all Users
 http://localhost:8102/repo/all
