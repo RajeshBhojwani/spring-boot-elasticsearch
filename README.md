@@ -8,7 +8,7 @@ See dependencies details on this link -
 https://github.com/spring-projects/spring-data-elasticsearch/wiki/Spring-Data-Elasticsearch---Spring-Boot---version-matrix
 
 Step 1 Download the code from github
-git clone <>
+git clone https://github.com/RajeshBhojwani/spring-boot-elasticsearch.git
 
 Step 2 Build the project
 mvn clean install
