@@ -7,32 +7,32 @@ If you want to use latest ElasticSearch 5.x then you need to directly use Spring
 See dependencies details on this link -
 https://github.com/spring-projects/spring-data-elasticsearch/wiki/Spring-Data-Elasticsearch---Spring-Boot---version-matrix
 
-#Step 1 Download the code from github
+##Step 1 Download the code from github
 ```git clone https://github.com/RajeshBhojwani/spring-boot-elasticsearch.git ```
 
-#Step 2 Build the project
+##Step 2 Build the project
 ```mvn clean install```
 
-#Step 3 Launch the application
+##Step 3 Launch the application
 ```java -jar target\elasticsearch-0.0.1-SNAPSHOT.jar```
 
-#Step 4  Use Curl or Postman to test the REST apis created. 
+##Step 4  Use Curl or Postman to test the REST apis created. 
 UserController has api using ElasticsearchTemplate
 UserRepositoryController has api using ElasticsearchRepository
 
-#APIs for ElastisearchTemplate usage
+##APIs for ElastisearchTemplate usage
 1. POST call for creating new User-
 http://localhost:8102/new
 
-#JSON data
-```{
+###JSON data
+{
   "name": "Sumit",
    "userSettings": {
    	"gender" : "male",
    	"occupation" : "CA",
    	"hobby" : "chess"
    }
-}```
+}
 
 2. GET call for Retrieve all Users
 http://localhost:8102/all
@@ -42,11 +42,11 @@ http://localhost:8102/settings/Deepika/hobby/poetry
 
 
 
-# APIs for ElasticsearchRepository usage
+## APIs for ElasticsearchRepository usage
 
 1. POST call for creating new User-
 http://localhost:8102/repo/new
-# JSON Data
+### JSON Data
 {
   "name": "Deepika",
    "userSettings": {
