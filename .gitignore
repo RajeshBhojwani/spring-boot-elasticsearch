@@ -6,6 +6,7 @@ target/
 .classpath
 .factorypath
 .project
+.vscode
 .settings
 .springBeans
 
@@ -18,6 +19,7 @@ target/
 ### NetBeans ###
 nbproject/private/
 build/
+target/
 nbbuild/
 dist/
 nbdist/
