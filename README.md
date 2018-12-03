@@ -42,7 +42,7 @@ http://localhost:8102/all
 3. Add User setting entry by name
 http://localhost:8102/settings/Deepika/hobby/poetry
 
-
+For other apis, check code.
 
 ## APIs for ElasticsearchRepository usage
 
@@ -60,12 +60,14 @@ http://localhost:8102/repo/new
 }
 ```
 
-2. GET call for Retrieve all Users
+2. GET call for Retrieve all Users -
 http://localhost:8102/repo/all
 
 
-3. Add User setting entry by userId
+3. Add User settings entry by for a userId -
 http://localhost:8102/repo/settings/AWdeQyaoTJbZRlQtLZfL/hobby/chess
+
+For other apis, check code.
 
 
 
