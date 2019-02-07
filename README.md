@@ -70,7 +70,7 @@ http://localhost:8102/repo/settings/AWdeQyaoTJbZRlQtLZfL/hobby/chess
 For other apis, check code.
 
 
-
+For detail explanation of this project check this blog - https://www.rajeshbhojwani.co.in/2018/12/overview-elasticsearch-real-time.html
 
 
 
